@@ -25,3 +25,6 @@ _ide_helper.php
 Homestead.json
 Homestead.yaml
 Thumbs.db
+# Локальная база SQLite и её служебные файлы
+/database/*.sqlite
+/database/*.sqlite-*

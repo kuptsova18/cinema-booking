@@ -34,7 +34,7 @@ class Ticket extends Model
     }
     public function showtime(): BelongsTo
     {
-        return $this->belongsTo(Showtime::class);
+        return $this->belongsTo(ShowTime::class);
     }
     public function seat(): BelongsTo
     {
